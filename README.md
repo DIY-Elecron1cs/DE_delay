@@ -11,6 +11,6 @@ Delays Delay;
 ```
 методы:
 ```cpp
-Delay.Micr(uint16_t);  //миллисекунды
-Delay.Mill(uint32_t);  //микросекунды
+Delay.micr(uint16_t);  //миллисекунды
+Delay.mill(uint32_t);  //микросекунды
 ```
