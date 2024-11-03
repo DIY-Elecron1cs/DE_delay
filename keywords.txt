@@ -1,3 +1,4 @@
+#подсветка синтаксиса
 DE_delay KEYWORD1
 Delays KEYWORD1
 mill KEYWORD2
