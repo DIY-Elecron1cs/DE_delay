@@ -7,13 +7,11 @@
 class Delays {
   public:
     void mill(uint16_t delMill) {
-      _delMill = delMill;
       _delMill = millis() + delMill;
       while (millis() < _delMill) {
       }
     }
     void micr(uint32_t delMicr) {
-      _delMicr = delMicr;
       _delMicr = micros() + delMicr;
       while (micros() < _delMicr) {
       }
