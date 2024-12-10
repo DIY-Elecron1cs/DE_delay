@@ -1,7 +1,7 @@
 #подсветка синтаксиса
-DE_delay KEYWORD1
-Delays KEYWORD1
-mill KEYWORD2
-micr KEYWORD2
-blink KEYWORD2
-SECOND LITERAL1
+DE_delay  KEYWORD1
+Delays  KEYWORD1
+mill  KEYWORD2
+micr  KEYWORD2
+blink  KEYWORD2
+SECOND  LITERAL1
