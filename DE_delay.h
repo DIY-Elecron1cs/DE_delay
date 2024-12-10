@@ -16,19 +16,7 @@ class Delays {
       while (micros() < _delMicr) {
       }
     }
-    void blink(uint16_t period) {
-      _period = period;
-      while (millis() < period) {
-      }
-      digitalWtite(LED_BUILTIN, HIGH);
-
-      while (millis() < period) {
-      }
-      digitalWtite(LED_BUILTIN, LOW);
-    }
-
   private:
-    uint16_t _period;
     uint32_t _delMill;
     uint32_t _delMicr;
 };
